@@ -17,7 +17,6 @@ export function Hero() {
           <h3>Full Stack Developer</h3>
           <p className="small-resume">1 Year of Experience</p>
           <BrowserRouter>
-            <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
           </BrowserRouter>
           <div className="social-media">
             <a
