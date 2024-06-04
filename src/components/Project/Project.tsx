@@ -73,7 +73,6 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                
                 <a href="https://justmedicalbooks.com/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
@@ -133,7 +132,8 @@ export function Project() {
                 <a href="https://github.com/raj921/facial-authentication-system" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit GitHub" />
                 </a>
-                <a href="" target="_blank" rel="noreferrer">
+                {/* Provide a valid href or remove this link */}
+                <a href="#" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
@@ -192,7 +192,6 @@ export function Project() {
                 <a href="https://github.com/raj921/imcrypt" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit GitHub" />
                 </a>
-                
               </div>
             </header>
             <div className="body">
